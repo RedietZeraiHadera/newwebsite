@@ -1,0 +1,51 @@
+form{
+    text-align:right;
+    margin-right: 30%;
+
+    }
+    input{
+        padding: 1rem;
+        margin: 1px;
+        text-align: center ;
+
+    }
+    .heading{
+        text-align: center;
+    margin-left: 30%;
+    }
+    #button{
+        background-color: blue;
+        text-decoration: white;
+    }
+    p{
+        margin-right: 95px;
+    }
+    #image{
+      
+      height: 40%;
+      width:40% ;
+      display: grid;
+      align-items: center;
+      grid-template-columns: max-content;
+
+
+      
+    
+    }
+    .body{
+        text-align: right;
+    }
+    .all{
+        display: flex;
+        justify-content: space-between;
+    }
+    .sal{
+        float: left;
+        position: absolute;
+    }
+    .red{
+        float: right;
+        
+    }
+
+        

@@ -6,36 +6,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>List</title>
     <style>
-        table, th , tr , td{
-            border:1px solid black;
-            color: blueviolet;
-            border-collapse: collapse;
-            text-align:center;
-            margin: auto 5% 20%;
-            font-size: larger;
+        table,th,tr,td{
+            border:1px solid rgb(56, 53, 53);
+            color: rgb(207, 129, 129);
+            text-align: center;
+            vertical-align: bottom;
+            padding: 1px;
+        
         }
-    #paragraph{
-        margin: 45%;
-            
+           table{
+        border-collapse: collapse;
+        width: 60%;
+        margin-left: 20%;
+        margin-top: 10%;
+           }
+        th{
+            height: 50px;
+            font-style: italic;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
         }
-    #caption{
-            font-size: larger;
-            color: black;
+        td{
+            height: 30px;
+            font-family: Arial, Helvetica, sans-serif;
 
-
         }
+        caption{
+            font-size: 30px;
+            font-style: italic;
+        }
+        
     </style>
 </head>
 <body>
     <table>
         <caption id="caption"><b>Student Registration</b></caption>
-        <th>
-            <tr>
-                <td>First name</td>
-                <td>Last name</td>
-                <td>Email</td>
-            </tr>
-        </th>
+        <tr>
+            <th>First name</th>
+                <th>Last name</th>
+                <th>Email</th>
+        </tr>
         <tr>
             <td>Shalom</td>
             <td>Zeray</td>
